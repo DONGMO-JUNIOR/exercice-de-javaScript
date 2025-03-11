@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparer deux objets</title>
+    <script src="exo81.js" defer></script>
+</head>
+<body>
+
+    <h2>Comparer deux objets</h2>
+
+    <label for="obj1">Objet 1 :</label>
+    <input type="text" id="obj1" placeholder='{"nom": "Alice", "age": 25, "ville": "Paris"}'>
+    
+    <br><br>
+
+    <label for="obj2">Objet 2 </label>
+    <input type="text" id="obj2" placeholder='{"age": 25, "ville": "Paris"}'>
+
+    <br><br>
+
+    <button onclick="matchesWith()">Comparer</button>
+
+    <p id="resultat"></p>
+
+</body>
+</html>
